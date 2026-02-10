@@ -36,6 +36,7 @@
 <button class="menu-btn" onclick="toggleSidebar()">
   <span class="material-icons">menu</span>
 </button>
+<div id="overlay"></div>
 
 <!-- Main Content -->
 <main class="content">
@@ -55,7 +56,7 @@
       <div class="overlay">PROJECT 1</div>
     </div>
     <div class="project">
-      <img src="project_2.png">
+      <img src="project_2.jpg">
       <div class="overlay">PROJECT 2</div>
     </div>
     <div class="project">
@@ -63,7 +64,7 @@
       <div class="overlay">PROJECT 3</div>
     </div>
     <div class="project">
-      <img src="project_4.png">
+      <img src="project_4.jpg">
       <div class="overlay">PROJECT 4</div>
     </div>
   </div>
@@ -72,7 +73,8 @@
 <section id="skills" class="glass">
   <h2><span class="material-icons">bolt</span> Skills</h2>
   <div class="skill-box">
-    <span>Photoshop</span>
+    <span>Photopea</span>
+     <span>Canva</span>
     <span>YouTube Thumbnails</span>
     <span>CTR Optimization</span>
     <span>Gaming Designs</span>
@@ -81,15 +83,38 @@
 </section>
 
 <section id="contact" class="glass contact">
-  <h2><span class="material-icons">connect_without_contact</span> Contact</h2>
+  <h2>
+    <span class="material-icons" aria-hidden="true">connect_without_contact</span>
+    Contact
+  </h2>
+
   <p>Let’s boost your channel 🚀</p>
 
   <div class="icons">
-    <span class="material-icons">language</span>
-    <span class="material-icons">chat</span>
-    <span class="material-icons">smartphone</span>
+    <!-- Website -->
+    <a href="https://elitedit.netlify.app" target="_blank" rel="noopener"
+       aria-label="Visit website">
+      <span class="material-icons">language</span>
+      <span class="label">Website</span>
+    </a>
+
+    <!-- Email -->
+    <a href="mailto:prabinmahato939@gmail.com"
+       aria-label="Send email">
+      <span class="material-icons">chat</span>
+      <span class="label">Email</span>
+    </a>
+
+    <!-- Phone -->
+    <a href="https://t.me/rajesheditx"
+       aria-label="Message me">
+      <span class="material-icons">telegram</span>
+      <span class="label">Telegram</span>
+    </a>
   </div>
+
 </section>
+
 
 <footer>© 2026 Elite Thumbnail Edit  • Designed by Sumit Kumar Mahato</footer>
 
